@@ -23,7 +23,7 @@
 		"coverage": "vitest run --coverage",
 		"lint:fix": "eslint --ext .js,.ts,.jsx,.tsx src --fix --ignore-path .gitignore",
 		"lint": "eslint --ext .js,.ts,.jsx,.tsx src --ignore-path .gitignore",
-		"decoupled-kit-health-check": "npx --prefer-offline @pantheon-systems/decoupled-kit-health-check wordpress"
+		"decoupled-kit-health-check": "npx --prefer-offline @pantheon-systems/decoupled-kit-health-check@latest wordpress"
 	},
 	"dependencies": {
 		"gatsby": "^5.11.0",
